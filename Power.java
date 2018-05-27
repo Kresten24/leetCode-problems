@@ -5,14 +5,6 @@ public class Power {
 
 	public double myPow(double x, int n) {
 
-		if(n<0){
-
-			if(n<Integer.MIN_VALUE || n>Integer.MAX_VALUE){
-				return result=0.0;
-			}
-
-		}
-
 		result = Math.pow(x, n);
 
 		return result;
